@@ -13,3 +13,15 @@ if (actualPoints >= minGradPoints) {
     } bodů`
   );
 }
+
+
+
+const pointsStudent = 60
+const minPoints = 75
+const nameStudent = "Alena Nováková"
+
+if(pointsStudent >= minPoints) {
+  console.log(`${nameStudent} ukončil/a studium úspěšně. Gratulujeme!`);
+} else {
+  console.log(`${nameStudent} neprospěl/a. Chybělo mu/jí ještě ${minPoints - pointsStudent} bodů.`);
+}

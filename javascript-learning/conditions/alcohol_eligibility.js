@@ -1,4 +1,4 @@
-const actualAge = 17;
+const actualAge = 20;
 const drinkingAgeLimit = 18;
 const fullName = "Josef Nový";
 
@@ -11,5 +11,5 @@ if (actualAge >= drinkingAgeLimit) {
     } roků/let`
   );
 } else {
-  console.error("CHYBA: Zadán neplatný věk");
+  console.error("CHYBA: Zadán neplatný věk!");
 }
