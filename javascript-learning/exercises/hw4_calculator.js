@@ -4,7 +4,7 @@ result = a + b;
 console.log("Součet: " + result);
 
 const c = 474;
-const d = 52;
+const d = 520;
 result = c - d;
 console.log("Odečet: " + result);
 
